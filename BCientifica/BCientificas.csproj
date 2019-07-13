@@ -12,13 +12,13 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BCientifica</RootNamespace>
-    <AssemblyName>BCientifica</AssemblyName>
+    <RootNamespace>BCientificas</RootNamespace>
+    <AssemblyName>BCientificas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44358</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -124,7 +124,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BitacoraExperimentalModel.cs" />
+    <Compile Include="Models\BitacorasModel.cs" />
+    <Compile Include="Models\ConsecutivosModel.cs" />
+    <Compile Include="Models\DescargasModel.cs" />
+    <Compile Include="Models\ErroresModel.cs" />
+    <Compile Include="Models\ExperimentosModel.cs" />
+    <Compile Include="Models\NivelAcademicoModel.cs" />
+    <Compile Include="Models\PrivilegiosModel.cs" />
+    <Compile Include="Models\PrivilegiosUsuariosModel.cs" />
+    <Compile Include="Models\ProyectosModel.cs" />
+    <Compile Include="Models\PuestosModel.cs" />
+    <Compile Include="Models\RamasCientificasModel.cs" />
+    <Compile Include="Models\TipoConsecutivoModel.cs" />
+    <Compile Include="Models\UsuariosModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\BitacoraExperimental.aspx.cs">
+      <DependentUpon>BitacoraExperimental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\BitacoraExperimental.aspx.designer.cs">
+      <DependentUpon>BitacoraExperimental.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -148,6 +169,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Views\BitacoraExperimental.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -165,7 +187,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -198,7 +219,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50250</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50250/</IISUrl>
+          <IISUrl>https://localhost:44358/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
