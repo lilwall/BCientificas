@@ -67,22 +67,40 @@ namespace ProyectoServicios {
         protected global::System.Web.UI.WebControls.DropDownList ddlFirma;
         
         /// <summary>
-        /// lblNombre_Expe control.
+        /// lblNombre_Experimento control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombre_Expe;
+        protected global::System.Web.UI.WebControls.Label lblNombre_Experimento;
         
         /// <summary>
-        /// lblFecha control.
+        /// txtNombre_Expe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFecha;
+        protected global::System.Web.UI.WebControls.TextBox txtNombre_Expe;
+        
+        /// <summary>
+        /// lblFech control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFech;
+        
+        /// <summary>
+        /// txtFechaa control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFechaa;
         
         /// <summary>
         /// imgMuestra control.
