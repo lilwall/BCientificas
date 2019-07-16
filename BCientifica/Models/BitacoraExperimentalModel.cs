@@ -11,7 +11,7 @@ namespace BCientificas.Models
         {
         }
 
-        public BitacoraExperimentalModel(int cod_Bitacora_Experimental, string objetivos, string descripcion, string equipo, string procedimientos, int cod_Experimentos, DateTime fecha)
+        public BitacoraExperimentalModel(int cod_Bitacora_Experimental, string objetivos, string descripcion, string equipo, string procedimientos, int cod_Experimentos, DateTime fecha, bool firma)
         {
             Cod_Bitacora_Experimental = cod_Bitacora_Experimental;
             Objetivos = objetivos;
@@ -20,6 +20,7 @@ namespace BCientificas.Models
             Procedimientos = procedimientos;
             Cod_Experimentos = cod_Experimentos;
             Fecha = fecha;
+            Firma = firma;
         }
 
         public int Cod_Bitacora_Experimental { get; set; }
@@ -29,5 +30,7 @@ namespace BCientificas.Models
         public string Procedimientos { get; set; }
         public int Cod_Experimentos { get; set; }
         public DateTime Fecha { get; set; }
+
+        public  Boolean Firma { get; set; }
     }
 }
