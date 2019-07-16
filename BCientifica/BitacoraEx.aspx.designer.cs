@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoServicios {
+namespace BCientificas {
     
     
-    public partial class BitacoraExperimental {
+    public partial class BitacoraEx {
         
         /// <summary>
         /// form1 control.
@@ -22,31 +22,40 @@ namespace ProyectoServicios {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ddlProyecto control.
+        /// lblNombreProyecto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlProyecto;
+        protected global::System.Web.UI.WebControls.Label lblNombreProyecto;
         
         /// <summary>
-        /// lblCod_Proyecto control.
+        /// ddlProyectos control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCod_Proyecto;
+        protected global::System.Web.UI.WebControls.DropDownList ddlProyectos;
         
         /// <summary>
-        /// Firma control.
+        /// lblCodigoProyecto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Firma;
+        protected global::System.Web.UI.WebControls.Label lblCodigoProyecto;
+        
+        /// <summary>
+        /// txtCodigoProyecto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCodigoProyecto;
         
         /// <summary>
         /// ddlNombreCompleto control.
@@ -67,84 +76,111 @@ namespace ProyectoServicios {
         protected global::System.Web.UI.WebControls.DropDownList ddlFirma;
         
         /// <summary>
-        /// lblNombre_Experimento control.
+        /// imgFirma control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombre_Experimento;
+        protected global::System.Web.UI.WebControls.ImageButton imgFirma;
         
         /// <summary>
-        /// txtNombre_Expe control.
+        /// lblNombreExp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre_Expe;
+        protected global::System.Web.UI.WebControls.Label lblNombreExp;
         
         /// <summary>
-        /// lblFech control.
+        /// txtNombreExp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFech;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreExp;
         
         /// <summary>
-        /// txtFechaa control.
+        /// lblFecha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaa;
+        protected global::System.Web.UI.WebControls.Label lblFecha;
         
         /// <summary>
-        /// imgMuestra control.
+        /// txtFecha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton imgMuestra;
+        protected global::System.Web.UI.WebControls.TextBox txtFecha;
         
         /// <summary>
-        /// lblDetalle_Expe control.
+        /// imgMuestras control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDetalle_Expe;
+        protected global::System.Web.UI.WebControls.ImageButton imgMuestras;
         
         /// <summary>
-        /// imgFirma1 control.
+        /// lblDetalleEx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgFirma1;
+        protected global::System.Web.UI.WebControls.Label lblDetalleEx;
         
         /// <summary>
-        /// ddlFirmaC control.
+        /// btnSubir control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlFirmaC;
+        protected global::System.Web.UI.WebControls.Button btnSubir;
         
         /// <summary>
-        /// btnGuardar_Editar control.
+        /// imgFirmaa control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGuardar_Editar;
+        protected global::System.Web.UI.WebControls.Image imgFirmaa;
+        
+        /// <summary>
+        /// ddlFirmaTetigo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlFirmaTetigo;
+        
+        /// <summary>
+        /// btnGuardarBitacoraEx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGuardarBitacoraEx;
+        
+        /// <summary>
+        /// lblMensaje control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }
