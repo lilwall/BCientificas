@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCientifica", "BCientifica\BCientifica.csproj", "{405ED12C-E945-459E-9C7E-5480E7E5BAE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCientificas", "BCientifica\BCientificas.csproj", "{405ED12C-E945-459E-9C7E-5480E7E5BAE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4890A288-A452-4DA0-B502-FE62AB352FC8}
+		SolutionGuid = {A1841C9C-5DE3-4F9E-9BEC-C7617A288D1C}
 	EndGlobalSection
 EndGlobal

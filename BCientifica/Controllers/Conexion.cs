@@ -32,10 +32,7 @@ namespace BCientificas.Controllers
                 Console.WriteLine("Error a la hora de conectar" + ex.ToString());
             }
         }
-        public string insertar("Datos")
-        {
-
-        }
+    
 
 
 
