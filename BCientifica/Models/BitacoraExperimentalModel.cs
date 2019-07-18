@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace BCientificas.Models
 {
@@ -23,14 +24,21 @@ namespace BCientificas.Models
             Firma = firma;
         }
 
+        [DataMember]
         public int Cod_Bitacora_Experimental { get; set; }
+        [DataMember]
         public string Objetivos { get; set; }
+        [DataMember]
         public string Descripcion { get; set; }
+        [DataMember]
         public string Equipo { get; set; }
+        [DataMember]
         public string Procedimientos { get; set; }
+        [DataMember]
         public int Cod_Experimentos { get; set; }
+        [DataMember]
         public DateTime Fecha { get; set; }
-
-        public  Boolean Firma { get; set; }
+        [DataMember]
+        public Boolean Firma { get; set; }
     }
 }

@@ -47,6 +47,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PG.CONNECTOR">
+      <HintPath>..\..\..\..\Desktop\Semana2\PG.CONNECTOR.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -117,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BitacoraEx.aspx.cs">
       <DependentUpon>BitacoraEx.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +131,20 @@
     <Compile Include="Controllers\BitacoraExperimentalController.cs" />
     <Compile Include="Controllers\Conexion.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Data\BitacoraExperimentalData.cs" />
+    <Compile Include="Data\BitacorasData.cs" />
+    <Compile Include="Data\ConsecutivosData.cs" />
+    <Compile Include="Data\DescargasData.cs" />
+    <Compile Include="Data\ErroresData.cs" />
+    <Compile Include="Data\ExperimentosData.cs" />
+    <Compile Include="Data\NivelAcademicoData.cs" />
+    <Compile Include="Data\PrivilegiosData.cs" />
+    <Compile Include="Data\PrivilegiosUsuario.cs" />
+    <Compile Include="Data\ProyectosData.cs" />
+    <Compile Include="Data\PuestosData.cs" />
+    <Compile Include="Data\RamasCientificasData.cs" />
+    <Compile Include="Data\TipoConsecutivoData.cs" />
+    <Compile Include="Data\UsuariosData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

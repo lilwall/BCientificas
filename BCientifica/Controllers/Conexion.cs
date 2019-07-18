@@ -22,14 +22,14 @@ namespace BCientificas.Controllers
             {
                 cn = new SqlConnection("Data Source=localhost;Initial Catalog=ServiciosWeb;Integrated Security=True");
                 cn.Open();
-                Console.WriteLine("Conectado");
+                Console.WriteLine("Conectado"); // Cambiar por alertas en aspx
                 
 
 
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error a la hora de conectar" + ex.ToString());
+                Console.WriteLine("Error a la hora de conectar" + ex.ToString()); // Cambiar por alertas en aspx
             }
         }
     
