@@ -67,7 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bitacora.aspx" />
     <Content Include="BitacoraExperimental.aspx" />
+    <Content Include="ConsecutivoEditar.aspx" />
+    <Content Include="CrearUsuario.aspx" />
+    <Content Include="Descargas.aspx" />
+    <Content Include="Errores.aspx" />
+    <Content Include="NivelAcademico.aspx" />
     <Content Include="Proyecto.aspx" />
     <Content Include="ProyectoActualizado.aspx" />
     <Content Include="RamasCientificas.aspx" />
@@ -76,12 +82,54 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bitacora.aspx.cs">
+      <DependentUpon>Bitacora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bitacora.aspx.designer.cs">
+      <DependentUpon>Bitacora.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BitacoraExperimental.aspx.cs">
       <DependentUpon>BitacoraExperimental.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="BitacoraExperimental.aspx.designer.cs">
       <DependentUpon>BitacoraExperimental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsecutivoEditar.aspx.cs">
+      <DependentUpon>ConsecutivoEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsecutivoEditar.aspx.designer.cs">
+      <DependentUpon>ConsecutivoEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsuario.aspx.cs">
+      <DependentUpon>CrearUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearUsuario.aspx.designer.cs">
+      <DependentUpon>CrearUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Descargas.aspx.cs">
+      <DependentUpon>Descargas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Descargas.aspx.designer.cs">
+      <DependentUpon>Descargas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Errores.aspx.cs">
+      <DependentUpon>Errores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Errores.aspx.designer.cs">
+      <DependentUpon>Errores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NivelAcademico.aspx.cs">
+      <DependentUpon>NivelAcademico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NivelAcademico.aspx.designer.cs">
+      <DependentUpon>NivelAcademico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
