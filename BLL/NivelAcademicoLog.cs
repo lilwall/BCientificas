@@ -49,7 +49,7 @@ namespace BLL
 
         public DataSet CargarNiveleAcademico()
         {
-            cnn = DAL.DAL.trae_conexion("BDConnectionString", ref error, ref numeroError);
+            cnn = DAL.DAL.trae_conexion("ServiciosWeb", ref error, ref numeroError);
             if (cnn == null)
             {
                 //insertar en la table de errores
