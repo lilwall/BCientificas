@@ -1,21 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BitacoraExperimental.aspx.cs" Inherits="BCientificas.BitacoraExperimental" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="BitacoraExperimental.aspx.cs" Inherits="BCientificas.Formulario_web1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .input-md {}
-        .auto-style1 {
-            width: 283px;
-            height: 85px;
-        }
-    </style>
-</head>
-<body>
-    <form id="form2" runat="server">
-        <div>
+    .auto-style2 {
+        width: 618px;
+    }
+</style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
+        <div class="auto-style2">
             <h2>Bitacora Experimental</h2>
 
             <div>
@@ -136,7 +129,7 @@
                         </tr>
                         <tr>
                             <td>
-                            </td>
+                                &nbsp;</td>
                             <td>
                                 <asp:Button ID="btnGuardarBitacoraEx" runat="server" Text="Guardar" Width="83px" />
                             </td>
@@ -149,6 +142,5 @@
 
         </div>
             
-    </form>
-</body>
-</html>
+    
+</asp:Content>
